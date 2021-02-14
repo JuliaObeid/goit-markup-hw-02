@@ -24,12 +24,12 @@ ul {
 /* Site nav */
 
 .site-nav .link {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* Hero*/
@@ -41,5 +41,11 @@ ul {
 /* section*/
 
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
+}
+
+/* Our team*/
+
+.our-team .title {
+  color: var(--title-text-color);
 }
