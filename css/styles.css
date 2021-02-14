@@ -1,3 +1,11 @@
+:root {
+  --primary-text-color: #757575;
+
+  --title-text-color: #212121;
+
+  --accent-color: #2196f3;
+}
+
 .page {
   background-color: #f5f4fa;
   color: #757575;
@@ -5,10 +13,33 @@
 ul {
   list-style: none;
 }
-/* цвет основного текста #212121 */
+/* цвет основного текста #757575 */
 
-/* вторичный цвет текста #757575 */
+/* вторичный цвет текста #212121 */
 
 /* белый цвет текста #FFFFFF */
 
 /* акцент : #2196F3 */
+
+/* Site nav */
+
+.site-nav .link {
+  color: #2196f3;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #212121;
+}
+
+/* Hero*/
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* section*/
+
+.section-title {
+  color: #212121;
+}
