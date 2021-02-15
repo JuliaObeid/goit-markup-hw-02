@@ -1,3 +1,5 @@
+/*styles for index.html*/
+
 :root {
   --primary-text-color: #757575;
 
@@ -26,7 +28,7 @@ ul {
 /* Site nav */
 
 .site-nav .link {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -35,7 +37,7 @@ ul {
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 /* Hero*/
@@ -71,3 +73,5 @@ ul {
 .our-team .title {
   color: var(--title-text-color);
 }
+
+/*styles for portfolio.html*/
