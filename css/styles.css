@@ -10,10 +10,31 @@
   --primary-white-color: #ffffff;
 }
 
-.page {
+body {
   background-color: #f5f4fa;
   color: #757575;
+
+  font-family: Roboto, sans-serif;
+
+  letter-spacing: 0.03em;
 }
+
+/* Logo */
+.logo .accent-blue {
+  color: var(--accent-color);
+}
+.logo .accent-black {
+  color: var(--title-text-color);
+}
+.logo .accent-blue, .accent-black {
+  font-family: raleway, sans-serif;
+
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+
+}
+
 ul {
   list-style: none;
 }
@@ -29,6 +50,11 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -44,6 +70,13 @@ ul {
 
 .hero-title {
   color: #ffffff;
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 /*Button*/
@@ -52,7 +85,12 @@ ul {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
 
+  font-weight: bold;
   font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  align-items: center;
+
   padding: 12px 24px;
   display: inline-block;
 }
@@ -66,6 +104,23 @@ ul {
 
 .section-title {
   color: var(--title-text-color);
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+text-transform: uppercase;
 }
 
 /* Our team*/
@@ -106,5 +161,4 @@ ul {
 
 .type-button {
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
-
+  color: var(--primary-white-color)
