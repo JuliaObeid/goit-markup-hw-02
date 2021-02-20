@@ -48,6 +48,23 @@ ul {
 
 /* Site nav */
 
+.contacts .mail {
+  color: var(--accent-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+.contacts .phone {
+  color: var(--primary-text-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -127,6 +144,33 @@ text-transform: uppercase;
 
 .our-team .title {
   color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+
+}
+
+.our-team .occupation {
+  color: var(--primary-text-color);
+
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+
+}
+
+/* Footer*/
+
+.footer .address {
+  color: var(--primary-white-color);
+
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+
 }
 
 /*styles for portfolio.html*/
@@ -159,6 +203,31 @@ ul {
 
 }
 
-.type-button {
+.button-for-portfolio .button {
   background-color: var(--accent-color);
-  color: var(--primary-white-color)
+  color: var(--primary-white-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+}
+
+
+.feature-list-portfolio .title {
+  color: var(--title-text-color);
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.feature-list-portfolio .variety {
+  color: var(--primary-text-color);
+
+font-weight: normal;
+font-size: 16px;
+line-height: 1.8;
+
+}
