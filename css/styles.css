@@ -49,12 +49,16 @@ ul {
 /* Site nav */
 
 .contacts .mail {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
+}
+
+.contacts .mail:hover{
+  color: var(--accent-color);
 }
 .contacts .phone {
   color: var(--primary-text-color);
@@ -64,7 +68,9 @@ font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 }
-
+.contacts .phone:hover {
+  color:var(--accent-color)
+}
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -203,9 +209,10 @@ ul {
 
 }
 
-.button-for-portfolio .button {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+.button-for-portfolio.button {
+  background-color: #F5F4FA;
+
+  color: var(--title-text-color);
 
 font-weight: 500;
 font-size: 16px;
@@ -213,6 +220,12 @@ line-height: 1.6;
 text-align: center;
 }
 
+.button-for-portfolio.button:hover {
+   background-color: var(--accent-color);
+
+   color: var(--primary-white-color);
+
+}
 
 .feature-list-portfolio .title {
   color: var(--title-text-color);
