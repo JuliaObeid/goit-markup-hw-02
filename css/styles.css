@@ -221,13 +221,8 @@ ul {
   color: var(--title-text-color);
 }
 
-.button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
 
-}
-
-.button-for-portfolio.button {
+.filter.button {
   background-color: #F5F4FA;
 
   color: var(--title-text-color);
@@ -238,10 +233,16 @@ line-height: 1.6;
 text-align: center;
 }
 
-.button-for-portfolio.button:hover {
+.filter.button:hover
+.filter.button:focus {
    background-color: var(--accent-color);
 
    color: var(--primary-white-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
 
 }
 
