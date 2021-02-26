@@ -225,7 +225,8 @@ ul {
   text-align: center;
 }
 
-.filter .button:hover .filter .button:focus {
+.button:hover,
+:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
