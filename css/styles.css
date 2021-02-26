@@ -214,7 +214,7 @@ ul {
   color: var(--title-text-color);
 }
 
-.filter .buttonp {
+.filter .button {
   background-color: #f5f4fa;
 
   color: var(--title-text-color);
@@ -225,7 +225,7 @@ ul {
   text-align: center;
 }
 
-.filter .buttonp:hover .filter .buttonp:focus {
+.filter .button:hover .filter .button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
