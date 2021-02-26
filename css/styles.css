@@ -17,6 +17,10 @@ body {
   font-family: Roboto, sans-serif;
 
   letter-spacing: 0.03em;
+
+  a {
+  text-decoration: none;
+ 
 }
 
 /* Logo */
